@@ -1,5 +1,5 @@
-import Sidebar from "@/ui/admin/layout/sidebar";
-import Topbar from "@/ui/admin/layout/topbar";
+import Sidebar from "@/app/ui/admin/layout/sidebar";
+import Topbar from "@/app/ui/admin/layout/topbar";
 export default function Layout({
     children
 }: {

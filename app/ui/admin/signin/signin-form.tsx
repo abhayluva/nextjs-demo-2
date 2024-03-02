@@ -2,7 +2,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import SigninAction from '@/action/admin/signin-action';
+import SigninAction from '@/app/action/admin/signin-action';
 export default function SigninForm() {
     const {
         register,

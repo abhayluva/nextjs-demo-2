@@ -1,4 +1,4 @@
-const Admin_API_URL = process.env.Admin_API_URL;
+const Admin_API_URL = process.env.NEXT_PUBLIC_Admin_API_URL;
 export async function AdminSignin(rowData:object){
     let url = Admin_API_URL+'authaccount/login';
 

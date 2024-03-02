@@ -1,6 +1,6 @@
 'use server';
-import { AdminSignin } from "@/model/admin/signin-model";
-import { expireSession, encryptData } from "@/helper/helper";
+import { AdminSignin } from "@/app/model/admin/signin-model";
+import { expireSession, encryptData } from "@/app/helper/helper";
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 

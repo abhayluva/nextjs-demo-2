@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import { AdminSignOut } from '@/action/admin/signin-action';
+import { AdminSignOut } from '@/app/action/admin/signin-action';
 export default function Topbar() {
     const SignOut = async () => {
         await AdminSignOut();

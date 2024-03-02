@@ -1,5 +1,5 @@
 
-import SigninForm from "@/ui/admin/signin/signin-form";
+import SigninForm from "@/app/ui/admin/signin/signin-form";
 export default function Signin() {
     return (
         <>
